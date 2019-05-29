@@ -1,0 +1,47 @@
+############################################################
+## Sequencing read library information
+############################################################
+### Average insert sizes
+### Standard deviation of insert sizes
+### Path of read files (.fq(.gz))
+##### [Paired-end reads] p1, p2
+##### [Mate-pair reads] m1, m2
+[LIB]
+insertSize	[(integer) insert size]
+insertSizeSD	[(integer) SD of insert size]
+p1	path of forward read          (ex. [path]/read1.1.fq)
+p2	path of reverse read          (ex. [path]/read1.2.fq)
+p1	path of forward read          (ex. [path]/read2.1.fq)
+p2	path of reverse read          (ex. [path]/read2.2.fq)
+
+[LIB]
+insertSize	[(integer) insert size]
+insertSizeSD	[(integer) SD of insert size]
+m1	path of forward read          (ex. [path]/read3.1.fq.gz)
+m2	path of reverse read          (ex. [path]/read3.2.fq.gz)
+
+############################################################
+## General assembly parameters
+############################################################
+## Minimum length of contigs
+MinContigLength	[(integer) minimum length of contigs]
+## Kmer size for de novo assembly
+Kmer	[(integer) kmer]
+### Maximum read length for SOAPdenovo2
+MaxReadLength	[(integer) maximum read length]
+
+############################################################
+## RACA & DESCHRAMBLER parameters
+############################################################
+## You can use the outrgroup more than one, but the names must be different.
+Reference	[(string) name]	[path of sequence file (.fa)]          (ex. S288C  [path]/S288C.fa)
+Outgroup	[(string) name]	[path of sequence file (.fa)]          (ex. dairenensis [path]/Saccharomyces_dairenensis.fa)
+### Tree must contain the names of a reference, target(s) and outgroup(s) (newick format)
+TREE	[path of tree (must be in newick format)]          (ex. [path]/tree.nwk)
+### Synteny resolution
+Resolution	[(integer) synteny resolution]
+
+############################################################
+## Error correction parameters 
+############################################################
+IterationNumber	[(integer) the number of iteration]

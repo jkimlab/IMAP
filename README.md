@@ -162,6 +162,11 @@ Included third party tools
 * Kent utilities (http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/)
 
 
+How to cite
+-----------
+Song G, Lee J, Kim J, Kang S, Lee H, Kwon D, Lee D, Lang GI, Cherry JM, Kim J. Integrative Meta-Assembly Pipeline (IMAP): Chromosome-level genome assembler combining multiple de novo assemblies. PLoS One. 2019 Aug 27;14(8):e0221858. doi: 10.1371/journal.pone.0221858.
+
+
 Contact
 -------------------  
 bioinfolabkr@gmail.com
